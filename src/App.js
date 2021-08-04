@@ -11,14 +11,14 @@ import Projects from './components/Pages/Projects/Projects';
 function App() {
   return (
     <React.Fragment>
-    <Router>
+    {/* <Router> */}
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/Portfolio' component={Projects}/>
         <Route path='/blog' component={Blog}/>
       </Switch>
-      </Router>
+      {/* </Router> */}
       </React.Fragment>
   );
 }
