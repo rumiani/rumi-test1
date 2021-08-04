@@ -1,0 +1,19 @@
+.portfolio{
+    margin: 0 auto;
+    /* background-color: rgba(51, 23, 23, 0.178); */
+
+}
+.portfolio > h1 {
+    text-align: center;
+    margin: 20px;
+}
+.projects{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+        
+}

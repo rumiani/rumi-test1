@@ -1,0 +1,118 @@
+.project{
+    width: 25vw;
+    height: 80vh;
+    margin: 20px 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    list-style-type: none;
+    opacity: 0.4;
+}
+.project:hover{
+    /* box-shadow: 2px 2px 3px black; */
+    opacity: 1;
+}
+.pic_div{
+    position: relative;
+}
+.project_pic{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px 10px 0 0;
+    
+}
+.project_name{
+    background-color: rgb(91, 91, 235);
+    padding:5px 10px;
+    border-radius: 0 10px 0 0 ;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    /* z-index: 2; */
+}
+.projects_info{
+    /* width: 90%; */
+    padding: 10px;
+    height: 30vh;
+    /* background-color: tomato; */
+    position: relative;
+}
+.project_text{
+    height: 20vh;
+    text-align:justify;
+    /* background-color: rosybrown; */
+    /* height: 100px; */
+}
+.info_Links {
+    height: 10vh;
+    width: 50%;
+    /* background-color: turquoise; */
+    display: flex;
+    justify-content: space-between;
+    position:static;
+    bottom: 5px;
+    margin: 0 auto;
+}
+.info_Links i {
+    font-size: 35px;
+}
+.info_Links i:hover{
+    cursor: pointer;
+    color: rgb(100, 255, 218);
+}
+.info_Links a{
+    text-decoration: none;
+    position: relative;
+}
+.info_Links span{
+    display: none;
+    position: absolute;
+    /* top: 10; */
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    font-size: 12px;
+    width: 100px;
+    padding: 5px 0;
+    bottom: 105%;
+    left: 20px;
+    text-align: center;
+}
+.info_Links>  a:hover span{
+    display: inline;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .project{
+        width: 35vw;
+        height: 80vh;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px black;
+        list-style-type: none;
+        
+    }
+    .project_pic{
+        width: 35vw;
+        height: 50vh;
+        border-radius: 10px 10px 0 0;
+        
+    }
+  }
+
+@media screen and (max-width: 768px) {
+.project{
+    width: 70vh;
+    height: 80vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    list-style-type: none;
+    
+}
+.project_pic{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px 10px 0 0;
+    
+}
+}
